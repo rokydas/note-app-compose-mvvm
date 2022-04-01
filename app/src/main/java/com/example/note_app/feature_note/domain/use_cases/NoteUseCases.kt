@@ -2,5 +2,6 @@ package com.example.note_app.feature_note.domain.use_cases
 
 data class NoteUseCases(
     val getNotes: GetNotes,
-    val deleteNote: DeleteNote
+    val deleteNote: DeleteNote,
+    val addNote: AddNote
 )
